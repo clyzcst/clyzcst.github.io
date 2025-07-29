@@ -17,18 +17,18 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"clyzcst.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"clyzcst.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta name="description" content="吉言1 小丑2 急了3 云 吉式1 我用ass都可以…2 我有个同学，ta … 吉论1 左键理论2 跳车理论">
+  <meta name="description" content="吉言 小丑 急了 云  吉式 我用ass都可以… 我有个同学，ta …  吉论1 左键理论2 跳车理论">
 <meta property="og:type" content="article">
 <meta property="og:title" content="吉吉圣经">
 <meta property="og:url" content="https://clyzcst.github.io/2022/05/13/%E5%90%89%E5%90%89%E7%BB%8F/index.html">
 <meta property="og:site_name" content="圣经集锦">
-<meta property="og:description" content="吉言1 小丑2 急了3 云 吉式1 我用ass都可以…2 我有个同学，ta … 吉论1 左键理论2 跳车理论">
+<meta property="og:description" content="吉言 小丑 急了 云  吉式 我用ass都可以… 我有个同学，ta …  吉论1 左键理论2 跳车理论">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-05-13T02:19:00.000Z">
-<meta property="article:modified_time" content="2025-07-29T17:35:10.809Z">
+<meta property="article:modified_time" content="2025-07-29T17:55:07.627Z">
 <meta property="article:author" content="一本涛编委会">
 <meta property="article:tag" content="jiejie">
 <meta property="article:tag" content="吉吉">
@@ -105,6 +105,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -119,16 +120,53 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
         <li class="menu-item menu-item-archives">
 
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -182,7 +220,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-07-30 01:35:10" itemprop="dateModified" datetime="2025-07-30T01:35:10+08:00">2025-07-30</time>
+                <time title="修改时间：2025-07-30 01:55:07" itemprop="dateModified" datetime="2025-07-30T01:55:07+08:00">2025-07-30</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -206,8 +244,15 @@
 
       
         <span id="more"></span>
-<h3 id="吉言"><a href="#吉言" class="headerlink" title="吉言"></a>吉言</h3><p>1 小丑<br>2 急了<br>3 云</p>
-<h3 id="吉式"><a href="#吉式" class="headerlink" title="吉式"></a>吉式</h3><p>1 我用ass都可以…<br>2 我有个同学，ta …</p>
+<h3 id="吉言"><a href="#吉言" class="headerlink" title="吉言"></a>吉言</h3><ol>
+<li>小丑</li>
+<li>急了</li>
+<li>云</li>
+</ol>
+<h3 id="吉式"><a href="#吉式" class="headerlink" title="吉式"></a>吉式</h3><ol>
+<li>我用ass都可以…</li>
+<li>我有个同学，ta …</li>
+</ol>
 <h3 id="吉论"><a href="#吉论" class="headerlink" title="吉论"></a>吉论</h3><p>1 左键理论<br>2 跳车理论</p>
 
     </div>
@@ -383,6 +428,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 
