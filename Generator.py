@@ -6,7 +6,7 @@ intxt = [
     "<!-- count the code begin -->\n[^<]*<!-- count the code end -->\n",
     "<!-- directory tree begin -->\n[^<]*<!-- directory tree end -->\n"
 ]
-outxt = ["tokei", "lsd --tree -I Environment -I __pycache__ --icon never"]
+outxt = ["tokei", "lsd --tree --depth 3 -I node_modules -I .deploy_git -I public --icon never"]
 with open("README.md", "r+", encoding="utf-8") as filetxt:
     lines = filetxt.read()
     filetxt.seek(0)
