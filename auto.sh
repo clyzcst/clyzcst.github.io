@@ -1,5 +1,7 @@
 #!/bin/bash
 
+./Generator.py
+
 # 获取当前时间
 TIME=$(date +"%Y-%m-%d %H:%M:%S")
 
