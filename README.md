@@ -8,17 +8,13 @@ Count My Code:
 ===============================================================================
  Language            Files        Lines         Code     Comments       Blanks
 ===============================================================================
- JavaScript             94         4242         3392          279          571
- JSON                    4         3075         3075            0            0
- Markdown               20         2029            0         1608          421
+ JSON                    2         3021         3021            0            0
+ Markdown               11          326            0          295           31
  Python                  1           20           18            1            1
  Shell                   1           18            6            6            6
- Stylus                 92         5043         3872          376          795
- SVG                     2            2            2            0            0
- Plain Text              1           52            0           43            9
- YAML                   30         3813         3166          463          184
+ YAML                    2          107           65           29           13
 ===============================================================================
- Total                 245        18294        13531         2776         1987
+ Total                  17         3492         3110          331           51
 ===============================================================================
 ```
 <!-- count the code end -->
@@ -30,7 +26,6 @@ The Directory Tree of My Codes:
 ├── _config.landscape.yml
 ├── _config.yml
 ├── auto.sh
-├── db.json
 ├── Generator.py
 ├── package-lock.json
 ├── package.json
@@ -40,6 +35,19 @@ The Directory Tree of My Codes:
 │   ├── page.md
 │   └── post.md
 ├── source
+│   └── _posts
+│       ├── ak-圣经.md
+│       ├── at-the-Bible.md
+│       ├── at-圣经.md
+│       ├── id-圣经.md
+│       ├── 吉吉经.md
+│       ├── 孙子兵法.md
+│       └── 美因圣经.md
+└── themes
+    └── next
+```
+<!-- directory tree end -->
+ce
 │   └── _posts
 │       ├── ak-圣经.md
 │       ├── at-the-Bible.md
