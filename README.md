@@ -45,19 +45,6 @@ The Directory Tree of My Codes:
 │       └── 美因圣经.md
 └── themes
     └── next
-```
-<!-- directory tree end -->
-ce
-│   └── _posts
-│       ├── ak-圣经.md
-│       ├── at-the-Bible.md
-│       ├── at-圣经.md
-│       ├── id-圣经.md
-│       ├── 吉吉经.md
-│       ├── 孙子兵法.md
-│       └── 美因圣经.md
-└── themes
-    └── next
         ├── _config.yml
         ├── _vendors.yml
         ├── crowdin.yml
