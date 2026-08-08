@@ -1,5 +1,6 @@
 ---
 title: id-圣经
+description: 名言、公式、技能。
 date: 2022-4-24 13:52:00
 tags:
  - id
