@@ -9,12 +9,15 @@ Count My Code:
  Language              Files        Lines         Code     Comments       Blanks
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  JSON                      2         3166         3166            0            0
- Markdown                 12          334            0          297           37
  Python                    1           20           18            1            1
  Shell                     1           18            6            6            6
  YAML                      2          107           65           29           13
+─────────────────────────────────────────────────────────────────────────────────
+ Markdown                 13          363            0          317           46
+ |- BASH                   1            6            6            0            0
+ (Total)                              369            6          317           46
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- Total                    18         3645         3255          333           57
+ Total                    19         3680         3261          353           66
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 <!-- count the code end -->
@@ -26,6 +29,7 @@ The Directory Tree of My Codes:
 ├── _config.landscape.yml
 ├── _config.yml
 ├── auto.sh
+├── CLAUDE.md
 ├── Generator.py
 ├── package-lock.json
 ├── package.json
