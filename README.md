@@ -30,6 +30,7 @@ The Directory Tree of My Codes:
 ├── _config.yml
 ├── auto.sh
 ├── CLAUDE.md
+├── db.json
 ├── Generator.py
 ├── package-lock.json
 ├── package.json
