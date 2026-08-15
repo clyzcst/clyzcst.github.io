@@ -8,11 +8,6 @@ TIME=$(date +"%Y-%m-%d %H:%M:%S")
 # 添加所有修改
 git add -A
 
-# 提交
+# 提交并推送 master 源码分支；网站构建与部署由 GitHub Actions 完成
 git commit -m "Site updated: $TIME"
-
-# 推送（如果你希望自动推送）
 git push
-
-# 推送 github actions
-hexo clean && hexo g && hexo d
